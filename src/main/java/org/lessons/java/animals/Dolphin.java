@@ -2,8 +2,8 @@ package org.lessons.java.animals;
 
 public class Dolphin extends Animal implements SwimInt{
 
-	public Dolphin(String animalFood, String animalSound) {
-		super(animalFood, animalSound);
+	public Dolphin(String animalFood, String animalSound, String animalName) {
+		super(animalFood, animalSound, animalName);
 		// TODO Auto-generated constructor stub
 	}
 

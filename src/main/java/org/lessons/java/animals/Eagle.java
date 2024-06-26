@@ -2,8 +2,8 @@ package org.lessons.java.animals;
 
 public class Eagle extends Animal implements FlyingInt{
 
-	public Eagle(String animalFood, String animalSound) {
-		super(animalFood, animalSound);
+	public Eagle(String animalFood, String animalSound, String animalName) {
+		super(animalFood, animalSound, animalName);
 		// TODO Auto-generated constructor stub
 	}
 
