@@ -13,11 +13,13 @@ public class Dog extends Animal{
 	public void animalVerse() {
 		
 		
+		
 	}
 
 	@Override
 	public void animalEat() {
 		
+		System.out.println("This animal eats: " + getAnimalFood());
 		
 	}
 
