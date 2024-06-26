@@ -68,12 +68,14 @@ public class Main {
 	public static void letFly(FlyingInt animal) {
 		
 		animal.fly();
+		System.out.println("");
 		
 	}
 	
 	public static void letSwim(SwimInt animal) {
 		
 		animal.swim();
+		System.out.println("");
 		
 	}
 }
