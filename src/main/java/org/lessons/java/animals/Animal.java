@@ -8,9 +8,24 @@ public abstract class Animal {
 	
 	//Constructor method
 	
+
 	public Animal(String animalFood) {
 		
+		this.animalFood = animalFood;
+		
 	}
+	
+	//Getters and Setters
+	
+	public String getAnimalFood() {
+		return animalFood;
+	}
+
+
+	public void setAnimalFood(String animalFood) {
+		this.animalFood = animalFood;
+	}
+
 	
 	
 	//Class Methods
