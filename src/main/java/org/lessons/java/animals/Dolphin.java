@@ -10,7 +10,7 @@ public class Dolphin extends Animal{
 	@Override
 	public void animalVerse() {
 		
-		System.out.println("This animal verse is : " + getAnimalSound());
+		System.out.println("The dolphin verse is : " + getAnimalSound());
 		
 	}
 

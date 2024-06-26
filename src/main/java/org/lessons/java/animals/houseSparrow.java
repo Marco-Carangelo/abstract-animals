@@ -10,14 +10,14 @@ public class houseSparrow extends Animal {
 	@Override
 	public void animalVerse() {
 		
-		System.out.println("This animal verse is : " + getAnimalSound());
+		System.out.println("The house sparrow verse is : " + getAnimalSound());
 		
 	}
 
 	@Override
 	public void animalEat() {
 		
-		System.out.println("This animal eats: " + getAnimalFood());
+		System.out.println("The house sparrow eats: " + getAnimalFood());
 		
 	}
 
