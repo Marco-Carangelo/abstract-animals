@@ -28,6 +28,8 @@ public class Main {
 		Dolphin giacinto = new Dolphin("fish","eEeEeEeEeEeEeEeEeEeE");
 		animals[3] = giacinto;
 		
+		//All the methods for all the animals
+		
 		for (Animal anml:animals) {
 			
 			anml.animalSleep();
@@ -35,5 +37,17 @@ public class Main {
 			anml.animalVerse();
 		}
 	
+	}
+	
+	public void letFly(FlyingInt animal) {
+		
+		animal.fly();
+		
+	}
+	
+	public void letSwim(SwimInt animal) {
+		
+		animal.swim();
+		
 	}
 }
