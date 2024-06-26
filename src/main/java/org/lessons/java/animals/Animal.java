@@ -2,10 +2,15 @@ package org.lessons.java.animals;
 
 public abstract class Animal {
 	
+	//Class fields
 	
+	private String animalFood;
 	
+	//Constructor method
 	
-	
+	public Animal(String animalFood) {
+		
+	}
 	
 	
 	//Class Methods
