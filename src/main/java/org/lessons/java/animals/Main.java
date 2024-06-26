@@ -9,24 +9,31 @@ public class Main {
 		//Initialize a scanner to acquire date from user
 		
 		Scanner scanner = new Scanner(System.in);
+	
+		//Initialize an Animal array of ten position
 		
-		//Define two variables to acquire animals info from user
+		Animal animals[] = new Animal[4];
 		
-		System.out.println("Insert animal food: ");
-		String userFood =  scanner.nextLine();
+		//Populate the Array with the four different instances of the Animal children classes
 		
-		System.out.println("Insert animal verse: ");
-		String userVerse=  scanner.nextLine();
+		Dog doggo = new Dog("Kibbles","Woof woof");
+		animals[0] = doggo;
 		
-		//Create an instance of Dog class
+		houseSparrow titti = new houseSparrow("seeds","Cheep");
+		animals[1] = titti;
 		
-		Dog doggo = new Dog(userFood , userVerse );
+		Eagle umberto = new Eagle("meat","SCREEEE");
+		animals[2] = umberto;
 		
-		//Try Dog and Animal methods
+		Dolphin giacinto = new Dolphin("fish","eEeEeEeEeEeEeEeEeEeE");
+		animals[3] = giacinto;
 		
-		doggo.animalSleep();
-		doggo.animalEat();
-		doggo.animalVerse();
+		for (Animal anml:animals) {
+			
+			anml.animalSleep();
+			anml.animalEat();
+			anml.animalVerse();
+		}
 	
 	}
 }
