@@ -9,13 +9,15 @@ public class Eagle extends Animal {
 
 	@Override
 	public void animalVerse() {
-		// TODO Auto-generated method stub
+		
+		System.out.println("This animal verse is : " + getAnimalSound());
 		
 	}
 
 	@Override
 	public void animalEat() {
-		// TODO Auto-generated method stub
+		
+		System.out.println("This animal eats: " + getAnimalFood());
 		
 	}
 
