@@ -6,13 +6,15 @@ public abstract class Animal {
 	
 	private String animalFood;
 	private String animalSound;
+	private String animalName;
 	
 	//Constructor method
 	
-	public Animal(String animalFood, String animalSound) {
+	public Animal(String animalFood, String animalSound,String animalName) {
 		
 		this.animalFood = animalFood;
 		this.animalSound = animalSound;
+		this.animalName = animalName;
 		
 	}
 	
@@ -35,10 +37,18 @@ public abstract class Animal {
 		this.animalFood = animalFood;
 	}
 
-	
+	public String getAnimalName() {
+		return animalName;
+	}
+
+	public void setAnimalName(String animalName) {
+		this.animalName = animalName;
+	}
 	
 	//Class Methods
 	
+	
+
 	public void animalSleep(){
 		
 		System.out.println("Zzz...");
