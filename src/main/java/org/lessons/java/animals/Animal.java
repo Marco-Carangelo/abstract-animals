@@ -57,7 +57,7 @@ public abstract class Animal {
 	
 	//Class abstract Methods
 	
-	public abstract void animalVerse();
+	public abstract void animalSound();
 	public abstract void animalEat();
 	
 	

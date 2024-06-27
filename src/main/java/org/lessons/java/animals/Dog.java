@@ -10,7 +10,7 @@ public class Dog extends Animal{
 	}
 
 	@Override
-	public void animalVerse() {
+	public void animalSound() {
 		
 		System.out.println("The Dog sound is : " + getAnimalSound());
 		
