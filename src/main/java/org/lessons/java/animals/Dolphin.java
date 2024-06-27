@@ -10,7 +10,7 @@ public class Dolphin extends Animal implements SwimInt{
 	@Override
 	public void animalSound() {
 		
-		System.out.println("The dolphin verse is : " + getAnimalSound());
+		System.out.println("The dolphin sound is : " + getAnimalSound());
 		
 	}
 

@@ -10,7 +10,7 @@ public class Eagle extends Animal implements FlyingInt{
 	@Override
 	public void animalSound() {
 		
-		System.out.println("The eagle verse is : " + getAnimalSound());
+		System.out.println("The eagle sound is : " + getAnimalSound());
 		
 	}
 

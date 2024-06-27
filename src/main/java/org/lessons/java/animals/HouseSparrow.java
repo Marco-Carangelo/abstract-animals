@@ -10,7 +10,7 @@ public class HouseSparrow extends Animal implements FlyingInt {
 	@Override
 	public void animalSound() {
 		
-		System.out.println("The house sparrow verse is : " + getAnimalSound());
+		System.out.println("The house sparrow sound is : " + getAnimalSound());
 		
 	}
 
