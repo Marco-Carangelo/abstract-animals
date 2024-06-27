@@ -19,7 +19,7 @@ public class Main {
 		Dog doggo = new Dog("Kibbles","Woof woof","Doggo");
 		animals[0] = doggo;
 		
-		houseSparrow titti = new houseSparrow("seeds","Cheep","Titti");
+		HouseSparrow titti = new HouseSparrow("seeds","Cheep","Titti");
 		animals[1] = titti;
 		
 		Eagle umberto = new Eagle("meat","SCREEEE","Umberto");
@@ -38,7 +38,7 @@ public class Main {
 			
 			anml.animalSleep();
 			anml.animalEat();
-			anml.animalVerse();
+			anml.animalSound();
 			
 			System.out.println("");
 			

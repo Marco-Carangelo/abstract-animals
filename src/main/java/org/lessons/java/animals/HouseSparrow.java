@@ -1,14 +1,14 @@
 package org.lessons.java.animals;
 
-public class houseSparrow extends Animal implements FlyingInt {
+public class HouseSparrow extends Animal implements FlyingInt {
 
-	public houseSparrow(String animalFood, String animalSound, String animalName) {
+	public HouseSparrow(String animalFood, String animalSound, String animalName) {
 		super(animalFood, animalSound, animalName);
 		
 	}
 
 	@Override
-	public void animalVerse() {
+	public void animalSound() {
 		
 		System.out.println("The house sparrow verse is : " + getAnimalSound());
 		
